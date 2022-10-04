@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+       <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <style>
+
+
+           header {
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+ }
+ 
+ #navbar {
+    display: flex;
+    height: 100px;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ 
+ .Nav_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-decoration: none;
+ }
+ 
+ a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    font-size: 24px;
+ }
+ 
+ li {
+    list-style: none;
+ }
+
+
+ .section1 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(16, 126, 126, 0);  */
+    background-position: center;
+    background-size: cover;
+ 
+    line-height: 3rem;
+    background-image: url(./png-transparent-responsive-web-design-mobile-phones-css-animations-graphy-framework-electronics-gadget-photography.png);
+ 
+ }
+ 
+ .se {
+    background-color: rgba(145, 140, 140, 0.808);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+ 
+ }
+ 
+ 
+ .section1 h1 {
+    font-size: 38px;
+    color: darkgoldenrod;
+ }
+ 
+ .section1 p {
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    color: white;
+    /* color: ; */
+ }
+ 
+ 
+ 
+ 
+ .sec1_btn {
+    background-color: darkgoldenrod;
+    padding: 16px 60px;
+    color: white;
+    font-size: 17px;
+ }
+ 
+ 
+ 
+ 
+ .sec-btns input , select{
+    padding: 15px 25px ;
+    margin: 0px 20px;
+   
+ }
+
+ .section2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+ }
+ 
+ .card {
+    width: 45%;
+    text-align: center;
+    line-height: 2rem;
+ }
+ 
+ .card h1,
+ h2 {
+    color: darkgoldenrod;
+ }
+ 
+ .section3 {
+    /* margin-top: 30px; */
+    background-color: #d9d9d9;
+    height: 150vh;
+ }
+ 
+ .section3 h1 {
+    text-align: center;
+    color: darkgoldenrod;
+    padding-top: 150px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .card .icon i {
+    font-size: 100px;
+    color: darkgoldenrod;
+    padding: 10px;
+    cursor: pointer;
+ }
+ 
+ 
+ .sec3-main {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 13px;
+    /* justify-content: center; */
+ }
+ 
+ .sec3-main i {
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .after {
+    margin-top: -10px;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    display: none;
+ }
+ 
+ #before2 {
+    /* margin-top: -140px; */
+    /* margin-bottom: ; */
+ }
+ 
+ .sec3-main2,
+ .sec3-main3,
+ .sec3-main4,
+ .sec3-main4,
+ .sec3-main4,
+ .sec3-main5,
+ .sec3-main6 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 13px;
+    /* justify-content: center; */
+ }
+ 
+ .sec3-main2 i,
+ .sec3-main3 i,
+ .sec3-main4 i,
+ .sec3-main5 i,
+ .sec3-main6 i,
+ .sec3-main2 i {
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ 
+ 
+ .sction4 {
+    height: 40vh;
+ 
+ }
+ 
+ .section4 h1 {
+    color: darkgoldenrod;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+ }
+ 
+ 
+ 
+ .form-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: #d9d9d9;
+    height: 77vh;
+ }
+ 
+ .content-form {
+    width: 50%;
+ 
+ }
+ 
+ .form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+ 
+ 
+ }
+ 
+ .form input {
+    padding: 10px;
+    margin-right: 50px;
+ }
+ 
+ .form input,
+ textarea,
+ button {
+    margin-top: 15px;
+ }
+ 
+ .form button {
+    padding: 10px 90px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 4px;
+ }
+ 
+ .content-form h2 {
+    font-size: 35px;
+    line-height: 2em;
+ }
+ 
+ .content-form p {
+    font-size: 25px;
+ }
+ 
+ 
+ .section5 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .section5 h1 {
+    color: rgb(56, 34, 26);
+    font-size: 35px;
+    line-height: 2em;
+ }
+ 
+ .section5 p {
+    font-size: 22px;
+    line-height: 1.7em;
+    width: 70%;
+    text-align: center;
+ 
+ }
+ 
+ 
+ .fotter {
+    height: 30vh;
+    background-color: darkgoldenrod;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .fotter p {
+    font-size: 20px;
+    color: white;
+ }
+ 
+ .fotter .fi i {
+    font-size: 40px;
+    color: rgb(0, 225, 255);
+ }
+ 
+ .fotter .second i {
+    font-size: 40px;
+    color: rgb(133, 15, 64);
+ }
+ 
+ .fotter .icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 200px; */
+    line-height: 2em
+ }
+            
+        </style>
+
+    </head>
+    <body>
+        <header>   
+        <div id="navbar">
+         
+        <div class="nav_logo">
+            <img src="68-682183_banner-download-calculator-icon-free-download-png-and.png"  height="70px">
+        </div>
+            <div class="col-md-6" style="background-color: darkgoldenrod">
+                <ul class="Nav_link">
+
+                    <li><a href="">Calculator</a></li>
+                    <li><a href="">Tax Slabs</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+          
+                  </ul>
+                 
+                </div>
+                </header>
+
+
+                <div class="section1">
+                    <div class="se">
+              
+                      <h1>TAX CALCULATOR PAKISTAN 2022-2023</h1>
+                      <p>* this is latest tax calculator as per 2022-2023 budget presented by Government Of Pakistan. </p>
+                      
+                      <div class="sec-btns">
+                        <input type="text" placeholder="Enter Amount Here " >
+                        <select name="Duration " id="Duration" placeholder="Duration"style=" padding: 16px 90px; " >
+                          <option value="Monthly">Monthly</option>
+                          <option value="Annually">Annually</option>
+              
+                        </select>
+                        <button class="sec1_btn" >Calculate</button>
+                      </div>
+              
+                      <p><span style="margin-top: 40px;">* Last updated : 30th June 2022 Check our Terms & Conditions</span></p>
+              
+                    </div>
+
+                    
+                        </div>
+
+                        <div class="section2">
+
+                            <div class="card">
+                              <div class="icon"><i class="fa fa-book"></i>
+               
+                             </div>
+                      
+                              <h1>Basic Concepts of Income Tax</h1>
+                              <p>You can find the fundamentals of income tax including taxable and none taxable sources.
+                                  This brochure is to assist taxpayers from Goverment Of Pakistan. </p> <br>
+                              <h2>Download PDF </h2>
+                      
+                      
+                      
+                            </div>
+                            <div class="card">
+                              <div class="icon"><i class="fa fa-file-pdf-o"></i></div>
+                      
+                              <h1>Budget Document(PDF)</h1>
+                              <p>You can find Federal Budget in Brief 2022-23. The fiscal year 2022-23 along with budget estimates and revised estimates for the fiscal year 2022-23from Goverment Of Pakistan</p> 
+                              <br>
+                              <h2>Download PDF </h2>
+                      
+                      
+                  
+                      </div>
+                  
+                  </div>
+
+                  <div class="section3">
+
+                    <h1>Salary Tax Slabs According Budget 2022-2023</h1>
+              
+                    <div class="sec3-main" id="before">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content-p" style="display: none ;">
+                        </p>
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="after" id="after">
+              
+                      <div class="sec3-main">
+              
+                        <div class="icons">
+                          <i class="uil uil-angle-up" id="after-icon"></i>
+                        </div>
+                        <div class="content">
+                          <h3>Salary income is under PKR 600,000</h3>
+                          <p>
+              
+                          </p>
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+              
+                    <div class="sec3-main2" id="before1">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon1"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content2-p" style="display: none ;">
+                        </p>
+                      </div>
+              
+                    </div>
+              
+                    <div class="sec3-main3" id="before3">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon3"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content3-p" style="display: none ;">
+              
+                        </p>
+                      </div>
+              
+                    </div>
+              
+                    <div class="sec3-main4" id="before4">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon4"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content4-p" style="display: none ;">
+              
+                        </p>
+                      </div>
+              
+                    </div>
+              
+                    <div class="sec3-main5" id="before5">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon5"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content5-p" style="display: none ;">
+                        </p>
+                      </div>
+              
+                    </div>
+              
+                    <div class="sec3-main6" id="before6">
+              
+                      <div class="icons">
+                        <i class="fa fa-plus-square" id="before-icon6"></i>
+                      </div>
+                      <div class="content">
+                        <h3>Salary income is under PKR 600,000</h3>
+                        <p id="content6-p" style="display: none ;">
+                        </p>
+                      </div>
+              
+                    </div>
+              
+              
+              
+              
+              
+              
+              
+              
+                  </div>
+              
+              
+              
+              
+              
+              
+                  <div class="section4">
+              
+                    <h1>Contact Us</h1>
+              
+                  </div>
+              
+              
+                  <div class="form-sec">
+              
+              
+                    <div class="content-form">
+              
+                      <h2>Submit Your Text Quries ?</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, non! lirm Lorem ipsum dolor sit amet
+              
+                      </p>
+                    </div>
+              
+                    <div class="form">
+              
+                      <input type="text" placeholder="First Name">
+                      <input type="text" placeholder="last Name">
+                      <textarea name="Area" id="" cols="30" rows="10" placeholder="Your Query ?"></textarea>
+                      <button class="form-btn">Ask Now</button>
+              
+                    </div>
+              
+              
+                  </div>
+              
+              
+              
+              
+                  <div class="section5">
+              
+              
+                    <h1>About Us</h1>
+              
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates alias repudiandae dolorem. Ullam blanditiis neque voluptatum nam, voluptatem laudantium architecto harum unde sunt asperiores voluptate dolores quae quas quo.
+              
+                    </p>
+              
+                  </div>
+              
+              
+              
+                  <div class="fotter">
+              
+              
+                    <div class="icons">
+                      <div class="fi">
+                        <i class="fa fa-facebook-square"></i>
+              
+                      </div>
+                      <div class="second">
+              
+                        <i class="fa fa-instagram"></i>
+                      </div>
+              
+                    </div>
+              
+                    <p>Design And Develop By Kamran Abbas</p>
+              
+              
+                  </div>
+              
+        
+
+        </div>  
+      
+    </body>
+</html>
